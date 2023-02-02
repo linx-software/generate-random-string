@@ -1,0 +1,118 @@
+{
+  "Properties": [
+    {
+      "Id": "Conditions",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Standard.IfElse.Condition, Twenty57.Linx.Plugins.Standard, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": [
+        {
+          "ExecutionPathId": "2Wn4",
+          "Name": "IncludeUpperCase"
+        },
+        {
+          "ExecutionPathId": "6NZk",
+          "Name": "IncludeLowerCase"
+        },
+        {
+          "ExecutionPathId": "sCzK",
+          "Name": "IncludeNumbers"
+        },
+        {
+          "ExecutionPathId": "QKmd",
+          "Name": "IncludeSpecialCharacters"
+        }
+      ]
+    },
+    {
+      "Id": "Expression_0",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.IncludeUpperCase",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression_1",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.IncludeLowerCase",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression_2",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.IncludeNumbers",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression_3",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.IncludeSpecialCharacters",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Show else",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    },
+    {
+      "Id": "Stop when true",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "2Wn4",
+      "Name": "IncludeUpperCase",
+      "Result": null,
+      "Order": 0,
+      "IterationHint": "ZeroOrOnce",
+      "ConstitutesControlFlow": true
+    },
+    {
+      "PluginId": "6NZk",
+      "Name": "IncludeLowerCase",
+      "Result": null,
+      "Order": 1,
+      "IterationHint": "ZeroOrOnce",
+      "ConstitutesControlFlow": true
+    },
+    {
+      "PluginId": "sCzK",
+      "Name": "IncludeNumbers",
+      "Result": null,
+      "Order": 2,
+      "IterationHint": "ZeroOrOnce",
+      "ConstitutesControlFlow": true
+    },
+    {
+      "PluginId": "QKmd",
+      "Name": "IncludeSpecialCharacters",
+      "Result": null,
+      "Order": 3,
+      "IterationHint": "ZeroOrOnce",
+      "ConstitutesControlFlow": true
+    }
+  ],
+  "Version": "1"
+}
