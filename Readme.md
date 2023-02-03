@@ -24,12 +24,8 @@ Linx Designer 6.4.3 or higher
 
 ## Explanation
 
-The `GeneratingRandomString` function creates a string of all allowed characters using the booleans for upper case, lower case, special characters and numbers passed into the function.
-
-The `GenerateRandom` function from the Cryptography plugin is used to generate a random byte.
-
-The byte is used to pick charaters from the allowable characters set by using their index.
-
-Each random character selected using this method is appended to the end of the string of random characters.
-
-The process is repeated until the length of the return string matches the desired length.
+1. A string of all allowable characters is created.
+2. The Cryptography plugin (`GenerateRandom`) is used to generate a random byte.
+3. The byte is used to pick characters from the total set by using their index.
+4. Each selected character is appended to the end of the string of random characters.
+5. The process is repeated until the length of the return string matches the desired length.
