@@ -16,7 +16,7 @@
       "Type": "Compiled:Boolean",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.IncludeLowerCase || $.Parameters.IncludeNumbers || $.Parameters.IncludeSpecialCharacters || $.Parameters.IncludeUpperCase",
+        "Expression": "$.Parameters.AllowLowerCase || $.Parameters.AllowNumbers || $.Parameters.AllowSpecialCharacters || $.Parameters.AllowUpperCase",
         "CompiledExpression": "={3}||{2}||{1}||{0}",
         "Type": "Compiled:Boolean"
       },

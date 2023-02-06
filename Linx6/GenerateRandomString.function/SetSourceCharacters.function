@@ -28,7 +28,7 @@
       "Type": "Compiled:Boolean",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.IncludeUpperCase",
+        "Expression": "$.Parameters.AllowUpperCase",
         "CompiledExpression": "={0}",
         "Type": "Compiled:Boolean"
       },
@@ -39,7 +39,7 @@
       "Type": "Compiled:Boolean",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.IncludeLowerCase",
+        "Expression": "$.Parameters.AllowLowerCase",
         "CompiledExpression": "={0}",
         "Type": "Compiled:Boolean"
       },
@@ -50,7 +50,7 @@
       "Type": "Compiled:Boolean",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.IncludeNumbers",
+        "Expression": "$.Parameters.AllowNumbers",
         "CompiledExpression": "={0}",
         "Type": "Compiled:Boolean"
       },
@@ -61,7 +61,7 @@
       "Type": "Compiled:Boolean",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.IncludeSpecialCharacters",
+        "Expression": "$.Parameters.AllowSpecialCharacters",
         "CompiledExpression": "={0}",
         "Type": "Compiled:Boolean"
       },

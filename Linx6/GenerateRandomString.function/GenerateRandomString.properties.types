@@ -2,36 +2,36 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "HVMy",
+      "Id": "R7Hu",
       "Properties": [
         {
-          "Id": "QfIp",
-          "Name": "Length",
-          "Type": "Compiled:Int64",
-          "Access": "ReadWrite"
-        },
-        {
-          "Id": "gHYo",
-          "Name": "IncludeUpperCase",
-          "Type": "Compiled:Boolean",
-          "Access": "ReadWrite"
-        },
-        {
           "Id": "hjdh",
-          "Name": "IncludeLowerCase",
-          "Type": "Compiled:Boolean",
-          "Access": "ReadWrite"
-        },
-        {
-          "Id": "XniV",
-          "Name": "IncludeSpecialCharacters",
+          "Name": "AllowLowerCase",
           "Type": "Compiled:Boolean",
           "Access": "ReadWrite"
         },
         {
           "Id": "U9IC",
-          "Name": "IncludeNumbers",
+          "Name": "AllowNumbers",
           "Type": "Compiled:Boolean",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "XniV",
+          "Name": "AllowSpecialCharacters",
+          "Type": "Compiled:Boolean",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "gHYo",
+          "Name": "AllowUpperCase",
+          "Type": "Compiled:Boolean",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "QfIp",
+          "Name": "Length",
+          "Type": "Compiled:Int64",
           "Access": "ReadWrite"
         }
       ]
